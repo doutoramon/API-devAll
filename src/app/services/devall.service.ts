@@ -24,7 +24,6 @@ export class DevallService {
     console.log(id)
     this.http.get(`${this.baseUrl}/post/clique/${id}`).subscribe(res => {
       var clickedPost = Object.values(res)
-      console.log(clickedPost)
       window.open(clickedPost[11]);
     })
 
