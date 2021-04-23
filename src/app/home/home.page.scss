@@ -1,10 +1,6 @@
-ion-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .item-busca {
-  width: 30%;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -17,4 +13,10 @@ ion-card {
   width: 300px;
   height: 350px;
   border-radius: 5px;
+}
+
+@media (max-width: 690px) {
+  ion-card {
+    margin: 0 auto;
+  }
 }
